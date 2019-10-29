@@ -1,0 +1,57 @@
+.Header {
+    text-align: center;
+    top: 20%;
+    margin-bottom: 7%;
+    position: relative;
+    box-sizing: border-box;
+    color: blueviolet;
+}
+
+.Body {
+    background-color: #add8e6;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-position-x: 50%;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background:#011923 url('dreamcodes/bg_images/color/c11.jpg') no-repeat center top;
+}
+
+.Clock {
+    border: 2px solid black;
+    margin: 10% 40%;
+    display: inline-block;
+    padding: 20px 30px;
+    width: 280px;
+    font-size: 400%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+    background-color: white;
+    transition: all 500ms ease-out;
+    transition-property: transform, margin, width;
+}
+
+.Clock:hover {
+    width: 400px;
+    transform: scale(1.2);
+    margin: 10% 35% 0% 35%;
+   
+}
+
+.Date {
+    color: #fff;
+    position: relative;
+    top: 17%;
+    font-size: 150%;
+    margin-left: 43%;
+    width: 200px;
+    transition: border 1s ease, transform 1s;
+}
+
+.Date:hover {
+    transform: translateY(-2px);
+    transform: scale(1.5);
+    border: 2px dashed white;
+}
